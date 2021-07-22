@@ -7,7 +7,7 @@ import math
 
 # Funtcion to read the volcano dataset
 def load_data():
-    return pd.read_csv('C:/Users/WALSH_COLI/Documents/volcanoes(1).csv')
+    return pd.read_csv('volcanoes(1).csv')
 # Volcano dataframe
 df = load_data()
 # Removes link column from dataframe because it is unnecessary
