@@ -1,16 +1,3 @@
-"""
-Name: Colin Walsh
-CS602: Section SN2
-Data: Volcano Dataset
-URL:
-Description:
-This program allows the user to interact with the volcano dataset through visualizations.
-The first visualization is a map of all the volcanoes in the dataset. The map defaults to every volcano in teh data set,
-but can be filtered by country or by a last known eruption. A bar chart visualizes the number of volcanoes per country
-and can also be filtered by last known eruption to only include a count of volcanoes within the time frame. Additionally,
-a user can enter in geographic coordinates and a chart updates to show the ten closest volcanoes to the coordinates and
-the volcanoes distance in miles. Lastly, seaborn is used to plot a histogram
-"""
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
